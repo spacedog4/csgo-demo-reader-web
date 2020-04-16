@@ -7,4 +7,26 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace; }
 
+.killFeed {
+  max-height: 350px;
+  width: 350px;
+  border: 2px solid #434c65;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #fbe1b2;
+  color: #434c65;
+  overflow: auto; }
+  .killFeed li {
+    margin-bottom: 10px; }
+    .killFeed li .attacker {
+      font-weight: bold;
+      margin-right: 5px; }
+    .killFeed li .victim {
+      font-weight: bold;
+      margin-left: 5px; }
+    .killFeed li .headshot {
+      font-weight: bold;
+      font-size: 10px;
+      color: #c43333; }
+
 /*# sourceMappingURL=index.css.map */

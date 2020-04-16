@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.killFeed {
+  max-height: 350px;
+  width: 350px;
+  border: 2px solid #434c65;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #fbe1b2;
+  color: #434c65;
+  overflow: auto;
+  li {
+    margin-bottom: 10px;
+    .attacker {
+      font-weight: bold;
+      margin-right: 5px;
+    }
+    .victim {
+      font-weight: bold;
+      margin-left: 5px;
+    }
+    .weapon {
+
+    }
+    .headshot {
+      font-weight: bold;
+      font-size: 10px;
+      color: rgb(196, 51, 51);
+    }
+  }
+}
